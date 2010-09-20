@@ -1,4 +1,4 @@
-class CtMigrate < ActiveRecord::Migration
+class AddCheaptoadTable < ActiveRecord::Migration
   def self.up
     create_table "notices", :force => true do |t|
       t.string :api_key, :limit => 100

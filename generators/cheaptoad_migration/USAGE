@@ -2,4 +2,9 @@ Description:
     This generator creates a migration for entries in the CheapToad database.
 
 Example:
-    ./script/generate cheaptoad_generator
+  Rails 2.x.x
+    ./script/generate cheaptoad_migration
+  Rails 3
+    rails generate cheaptoad_migration
+    or
+    ./script/rails generate cheaptoad_migration
