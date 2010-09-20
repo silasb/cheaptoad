@@ -15,6 +15,9 @@ In the app you want to catch hoptoad notices:
   * In Rails 3: Add "gem 'cheaptoad'" to your Gemfile
 * Run "./script generate cheaptoad_migration" in your app
 * Run "rake db:migrate" to create the notices table
+* Add a route to notices controller
+  * In Rails 2.3.X: Add "map.resources :notices" in your `config/routes.rb`
+  * In Rails 3: Add "resources :notices" in your `config/routes.rb`
 * Start your app, and you're catching notices!
 
 In the app you want to send hoptoad notices:
